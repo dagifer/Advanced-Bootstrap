@@ -31,6 +31,7 @@ h2 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  color: var(--tertiary-color);
 }
 p {
   background: var(--quaternary-color);
@@ -50,4 +51,24 @@ p {
   color: var(--quaternary-color);
   display: flex;
   justify-content: center;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 18px;
+  text-decoration: none;
 }
